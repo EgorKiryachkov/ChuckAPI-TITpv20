@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(180deg, rgb(107, 116, 214) 23.8%, rgb(0, 0, 0)92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Xanh Mono', monospace;
+    color: white;
+}
+
+.btn {
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+}
